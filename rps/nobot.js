@@ -32,14 +32,6 @@ var move = function(played) {
   if(!inited) {
     return 'scissors';
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
   var mostPlayed = Object.keys(plays).sort(function(a, b) { return (plays[b] - plays[a])});
-=======
-  var mostPlayed = Object.keys(plays).sort(function(a, b) { return (plays[a] - plays[b])});
->>>>>>> Initial nobot bot
-=======
-  var mostPlayed = Object.keys(plays).sort(function(a, b) { return (plays[a] - plays[b])});
->>>>>>> Initial nobot bot
   return counters[mostPlayed[0]];
 };
