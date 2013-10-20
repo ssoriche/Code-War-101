@@ -26,6 +26,10 @@ rl.on('line', function (cmd) {
     }
     console.log(move(results[1]));
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    console.log('You just typed: '+cmd);
+>>>>>>> Initial nobot bot
 =======
     console.log('You just typed: '+cmd);
 >>>>>>> Initial nobot bot
@@ -37,7 +41,11 @@ var move = function(played) {
     return 'scissors';
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   var mostPlayed = Object.keys(plays).sort(function(a, b) { return (plays[b] - plays[a])});
+=======
+  var mostPlayed = Object.keys(plays).sort(function(a, b) { return (plays[a] - plays[b])});
+>>>>>>> Initial nobot bot
 =======
   var mostPlayed = Object.keys(plays).sort(function(a, b) { return (plays[a] - plays[b])});
 >>>>>>> Initial nobot bot
