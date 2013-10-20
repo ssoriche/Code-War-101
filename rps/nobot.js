@@ -25,14 +25,6 @@ rl.on('line', function (cmd) {
       plays[results[1]] = 1;
     }
     console.log(move(results[1]));
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    console.log('You just typed: '+cmd);
->>>>>>> Initial nobot bot
-=======
-    console.log('You just typed: '+cmd);
->>>>>>> Initial nobot bot
   }
 });
 
